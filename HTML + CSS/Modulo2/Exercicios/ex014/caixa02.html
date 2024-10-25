@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 5px 0px 0px;
+            box-shadow: 1px 1px 5px black;
+        }
+        nav{
+            background-color: rgba(126, 126, 126, 0.712);
+            padding: 10px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            font-size: 1.1em;
+        } 
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 0px 5px 5px;
+            box-shadow: 1px 1px 5px black;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(170, 169, 169);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        aside > p{
+            text-align: right;
+            padding-right: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="caixa01.html">Caixa 01</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <P>Esportes Política Tecnologia</P>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis quae, aperiam id, quam nemo maiores ut assumenda qui minus odio perferendis, magni quo velit deserunt laudantium! Quia, consectetur delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed, quod provident rem magni sapiente voluptatum. Sint corrupti temporibus error, et ab culpa. Earum reiciendis debitis esse natus corporis delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deserunt laboriosam distinctio, eius sapiente blanditiis, mollitia et velit quia incidunt expedita soluta. Molestiae iure laudantium earum temporibus odio nihil quos!</p>
+                <aside>
+                    <p>Artigo escrito por josé da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <P>Desenvolvido por Umenorin</P>
+    </footer>
+</body>
+</html>

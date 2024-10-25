@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>
+    Tente abrir esse sitem em vários dispositivos diferentes ou simplesmente    
+    aumetne e diminua o tamanho do seu navegador
+    </p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-p.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Aúdio</h1>
+
+    <audio preload="metadata" autoplay controls>
+        <source src="audio/The Painted Night - National Sweetheart.mp3" type="audio/mp3">
+    </audio>
+
+    <h1>Reproduzindo Videos</h1>
+    <video src="videos/12033385_3840_2160_30fps.mp4" controls loop width="560" height="315" poster="imagens/_b113f2c8-9620-4dab-b04f-3317f2043064.jpeg"></video>
+    <h1>Video por url</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/H49i5mwdYbQ?si=bOsxdiBHXAAkpnCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
