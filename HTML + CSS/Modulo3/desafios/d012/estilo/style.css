@@ -54,12 +54,29 @@ section.normal{
 section.imagem{
     background-color: rgb(126, 126, 126);
     color: white;
+    box-shadow: inset 2px 4px 20px 1px black;
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.5);
     width: 300px;
+    text-shadow: 4px 4px 4px black;
 }
 
+section > p{
+    margin-bottom: 1em;
+}
+
+section#img01{
+    background-image: url("../imagens/background001.jpg");
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+section#img02{
+    background-image: url("../imagens/background002.jpg");
+    background-position: right center;
+    background-attachment: fixed;
+}
 footer{
     text-align: center;
     background-color: black;
