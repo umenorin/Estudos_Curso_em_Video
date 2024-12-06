@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            table-layout: fixed;
+            border: 1px solid black;
+            position: relative;
+        }
+        thead  >tr > th {
+            position: sticky;
+            top: -1px;
+        }
+        caption{
+            font-size: 1.5em;
+            font-family: cursive;
+            font-weight: bold;
+        }
+        tbody >tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        th{
+            text-align: center;
+            background-color: darkgrey;
+            color: white;
+        }
+        tr.cinza{
+            background-color: gray;
+        }
+        td{
+            padding: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.418);
+            vertical-align: bottom;
+            text-align: end;
+        }
+        td.cidade{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Primeira tabela</h1>
+    <!-- 
+        HIERARQUIA DE TABELAS
+        TABLE = tabela
+            TABLE ROW = linha de tabela
+                TABLE HEADER = cabeçalho de tabela
+                TABLE DATA = dado de tabela
+    -->
+    <table>
+            <tr class="cinza">
+                <td>a1</td>
+                <td>b1</td>
+                <td>c1</td>
+            </tr>
+            
+            <tr>
+                <td>a2</td>
+                <td>b2</td>
+                <td>c2</td>
+            </tr>
+            <tr class="cinza">
+                <td>a3</td>
+                <td>b3</td>
+                <td>c3</td>
+            </tr>
+        <tr>
+            <td>a4</td>
+            <td>b4</td>
+            <td>c4</td>
+        </tr>
+    </table>
+
+    <h2>Segunda tabela</h2>
+    <table>
+        <caption>População das cidades do brasil</caption>
+        <thead>
+            <th scope="col" style="width: 250px;">Cidades</th>
+            <th scope="col">populacao</th>
+        </thead>
+        <tbody >
+            <tr>
+                <td class ="cidade">Rio de Janeiro</td>
+                <td class="num">12 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade">Belo Horizonte</td>
+                <td class="num">8 765 432</td>
+            </tr>
+            <tr>
+                <td class ="cidade">Curitiba</td>
+                <td class="num">7 890 123</td>
+            </tr>
+            <tr>
+                <td class ="cidade">Porto Alegre</td>
+                <td class="num">6 543 210</td>
+            </tr>
+            <tr>
+                <td class ="cidade">Recife</td>
+                <td class="num">5 678 901</td>
+            </tr>
+            <tr>
+                <td class ="cidade">Fortaleza</td>
+                <td class="num">9 876 543</td>
+            </tr>
+            <tr> 
+                <td class ="cidade">Salvador</td>
+                <td class="num">4 321 098</td>
+            </tr>
+            <tr>
+                <td class ="cidade">Brasília</td>
+                <td class="num">10 987 654</td>
+            </tr>
+            <tr>
+                <td class ="cidade">Manaus</td>
+                <td class="num">3 210 987</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+            <tr>
+                <td class ="cidade" >Florianópolis</td>
+                <td class="num">2 345 678</td>
+            </tr>
+
+        </tbody>
+        
+        <tfoot>
+            <th scope="row">TOTAL</th>
+            <td><strong>71.965.304</strong></td>
+        </tfoot>
+    </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fuga voluptas doloribus illo omnis labore, corrupti ab saepe non eius excepturi at amet iusto, culpa cumque dolore vel libero reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos animi facere atque veniam! Rerum, quisquam temporibus vel eveniet ducimus magni unde aliquid sit possimus et quod nam iste cumque.</p>
+    
+</body>
+</html>
