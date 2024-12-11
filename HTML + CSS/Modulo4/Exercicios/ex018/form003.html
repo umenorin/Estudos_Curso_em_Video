@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Select, Datalist e Textarea</h1>
+
+    <p>
+        <label for="iEstado">Escolha o estado:</label>
+        <select name="estado" id="iEstado">
+            <option value="" selected>--escolha--</option>
+            <optgroup label="Norte">
+                <option value="AM">Amazonas</option>
+                <option value="PA">Pará</option>
+                <option value="RO">Rondônia</option>
+            </optgroup>
+            <optgroup label="Nordeste">
+                <option value="BA">Bahia</option>
+                <option value="PE">Pernambuco</option>
+                <option value="CE">Ceará</option>
+            </optgroup>
+            <optgroup label="Centro-Oeste">
+                <option value="GO">Goiás</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+            </optgroup>
+            <optgroup label="Sudeste">
+                <option value="ES">Espírito Santo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </optgroup>
+            <optgroup label="Sul">
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+        </select>
+    </p>
+    
+    <p>
+        <label for="iProf">Profissões</label>
+        <input type="text" name="Profissões" id="iProf" list="lstProf">
+        <datalist id="lstProf">
+            <option >Engenheiro</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="iMensagem">Mensagem</label>
+        <br>
+        <textarea name="mensagem" id="iMensagem" cols="30" rows="10" ></textarea>
+    </p>
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</body>
+</html>

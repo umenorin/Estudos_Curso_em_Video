@@ -16,6 +16,30 @@
             <label for="iPasword">Senha: </label>
             <input type="password" name="iPasword" id="iName" required placeholder="senha">
         </div>
+        <fieldset >
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="iSexMas" value="M"><label for="iSexMas">Masculino</label>
+
+            <input type="radio" name="sexo" id="iSexFem" checked value="F"><label for="iSexMas">Feminino</label>
+        </fieldset>
+
+        <fieldset >
+            <legend>Cor</legend>
+            <label for="icolor">cor</label> <br>
+            <input type="color" name="color" id="icolor" value="M">
+        </fieldset>
+
+        <fieldset >
+            <legend>Range</legend>
+            <label for="icolor">Nível da satisfação</label> <br>
+            <input type="range" name="range" id="irange" min="1" max="10" value="3">
+        </fieldset>
+
+        <fieldset >
+            <legend>File</legend>
+            <label for="icolor">Arquivo</label> <br>
+            <input type="file" name="file" id="iFile" >
+        </fieldset>
         <input type="submit" value="Enviar">
     </form>
 </body>
