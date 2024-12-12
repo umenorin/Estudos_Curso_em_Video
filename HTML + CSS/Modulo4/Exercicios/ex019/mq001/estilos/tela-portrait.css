@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+article div.imagem{
+    background-image: url("../../imagens/cev-portrait.jpg");
+    height: 800px;
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+menu{
+    display: none;
+}
+menu li {
+    text-align: center;
+}
+
+menu li > a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: lightcoral;
+    background-color: white;
+    padding: 10px;
+    display: block; 
+    width: 97%; 
+}
+
+menu li > a:hover {
+    background-color: rgba(255, 154, 154, 0.836);
+    text-decoration: underline;
+    color: white;
+}
+i.material-symbols-outlined{
+    color: lightcoral;
+    background-color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+i.material-symbols-outlined:hover{
+    background-color: rgba(255, 154, 154, 0.836);
+    color: white;
+    cursor: pointer;
+}

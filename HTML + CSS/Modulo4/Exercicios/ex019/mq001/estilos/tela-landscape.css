@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+article div.imagem{
+    background-image: url("../../imagens/cev-landscape.jpg");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+menu li{
+    display: inline-block;
+    margin: 5px 0;
+}
+
+menu li>a{
+    color: lightcoral;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+menu li>a:hover{
+    background-color: rgba(255, 154, 154, 0.836);
+    text-decoration: underline;
+    color: white;
+}
+i.material-symbols-outlined{
+    display: none;
+}
