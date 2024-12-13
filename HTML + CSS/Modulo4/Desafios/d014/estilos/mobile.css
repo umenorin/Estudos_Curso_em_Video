@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: #0ac2c2;
+}
+div.login-content { 
+    position: absolute;
+    display: block;
+    width: 50%;
+    min-width: 270px;
+    max-width: 400px;
+    height: 650px;
+    background-color: white;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,10%);
+    border-radius: 10px;
+    box-shadow: 2px 4px 20px 1px black;
+}
+
+div.image-login {
+    background-image: url("../imagens/NicoRobin400x400.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    display: block;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid black;
+}
+div.form-content h1 {
+    text-align: center;
+    color: black;
+    font-size: 2.75em;
+}
+
+div.form-content p {
+    text-align: center;
+    font-size: 1.3em;
+}
+div.input-form-content {
+    background-color: #0ac2c2;
+    border: 5px solid #0ac2c2;
+    border-radius: 5px;
+}
+
+i.material-symbols-outlined {
+    position: absolute;
+    font-size: 30px;
+    color: #010101;
+    display: inline-block;
+    width: 19px;
+    height: 23px;
+    margin: auto;
+}
+
+div.input-form-content {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin: 20px ;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    color: black;
+    height: 23px;
+    width: 75%;
+    border-color: #010101;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    height: 39px;
+    width: 70%;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.btn-submit {
+    background-color: #0ac2c2;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.btn-submit:hover {
+    background-color: #0e9999;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-pass-forgot {
+    background-color: white;
+    border: 2px solid #0ac2c2;
+    text-decoration: none;
+    color: #0ac2c2;
+    line-height: 35px;
+}
+
+.btn-pass-forgot:hover {
+    background-color: #0e9999;
+    border: 1px solid #0ac2c2;
+    text-decoration: underline;
+    color: black;
+    border: 2px solid black;
+  
+}

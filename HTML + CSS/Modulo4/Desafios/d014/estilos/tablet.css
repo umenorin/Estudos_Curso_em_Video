@@ -1,0 +1,71 @@
+@media screen and (min-width:768px) and (max-width:992px){
+    body {
+        background-image: url("../imagens/OPWalpaper.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+    }
+
+    div.login-content { 
+        position: relative;
+        width: 90%;
+        max-width: 800px;
+        height: 500px;
+        background-color: white;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,40%);
+        border-radius: 10px;
+        box-shadow: 2px 4px 20px 1px black;
+    }
+
+    div.image-login {
+        float: left;  
+        background-position: center center;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+        display: block;
+        margin: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: 2px solid black;
+    }
+
+    div.form-content {
+        position: absolute;
+        display: inline;
+        max-width: 350px;
+        float: left;
+        transform: translate(0,15%);
+    }
+
+    i.material-symbols-outlined {
+        position: absolute;
+        font-size: 30px;
+        color: #010101;
+        display: inline-block;
+        width: 19px;
+        height: 23px;
+        margin: auto;
+    }
+
+    div.input-form-content {
+        float: left;
+        position: relative;
+        display: block;
+        margin: auto;
+        width: 90%;
+        margin: 20px ;
+    }
+    
+    input {
+        display: block;
+        margin-left: auto;
+        color: black;
+        height: 23px;
+        width: 80%;
+        border-color: #010101;
+    }
+
+}
