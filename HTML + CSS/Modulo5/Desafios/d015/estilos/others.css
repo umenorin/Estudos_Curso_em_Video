@@ -1,0 +1,38 @@
+@media screen and (min-width:768px) {
+    header {
+        height: 80px;
+    }
+    menu{
+        
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    header h1 {
+        display: inline;
+        text-align: left;
+        width: 200px;
+        align-items: flex-start;
+    }
+
+    header ol {
+        display: inline-flex;
+        width: 650px;
+            
+    }
+    header li >a{
+        width: 80px;
+        margin-left: 5px;
+    }
+    main {
+        height: 89vh;
+    }
+    main article{
+        margin: auto;
+        max-width: 800px;
+    }
+    main article p {
+        text-align: justify;
+    }
+}

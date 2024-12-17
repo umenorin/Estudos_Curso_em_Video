@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 50vh;
+    background-color: gray;
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+}
+menu h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+menu ol {
+    list-style-type: none;
+}
+menu li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+menu li > a {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(26, 23, 23);
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 700;
+    flex: auto;
+}   
+
+menu li > a:hover{
+    background-color: lightgray;
+}
+
+main{
+    background-color: lightgray;
+    height: 50vh;
+    padding: 10px;
+}
+main article{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px 12px 0px black;
+}
