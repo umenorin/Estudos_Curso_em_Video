@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-family: "Sriracha", serif;
+    background-color: #1bf71fce;
+    text-align: center;
+    color: white;
+}
+
+main {
+    font-family:  "Sriracha", serif;
+    margin: auto;
+    max-width: 800px;
+
+}
+
+div.btn-container {
+    margin-top: 20px;
+}
+
+a.btn {
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #1bf71fce;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+a.btn:hover {
+    background-color: #1bf71fce;
+    
+    color: black;
+}

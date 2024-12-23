@@ -1,17 +1,36 @@
-body{
+body {
     background-color: #222121 ;
 }
-h1{
+
+div.container {
+    display: flex;
+    flex-flow: column;
+}
+
+h1 {
     color: #ffffff;
     position: relative;
     text-align: center;
 }
-iframe{
+div.video-container{
+    margin: auto;
+}
+iframe {
     position: relative;
 
 }
-a{
+
+a {
     position: relative;
     text-align: center;
     
+}
+
+a.videos {
+    display: inline-block;
+    margin: auto;
+}
+
+img {
+    margin: auto
 }
